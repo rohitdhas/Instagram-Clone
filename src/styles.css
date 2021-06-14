@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: Lato, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.section {
+  position: relative;
+  top: 55px;
+}
+
+svg {
+  cursor: pointer;
+  color: #2f2d2d;
+  background-color: transparent;
+  transition: transform 0.2s;
+}
+
+svg:hover {
+  transform: scale(1.1);
+}
